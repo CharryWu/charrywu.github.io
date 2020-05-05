@@ -46,21 +46,6 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="http://yoursite.com/2020/02/23/Hello-World-0/"/>
-    <id>http://yoursite.com/2020/02/23/Hello-World-0/</id>
-    <published>2020-02-23T13:08:53.000Z</published>
-    <updated>2020-02-23T13:08:53.068Z</updated>
-    
-    <summary type="html">
-    
-    </summary>
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Hello World</title>
     <link href="http://yoursite.com/2020/02/23/hello-world/"/>
     <id>http://yoursite.com/2020/02/23/hello-world/</id>
     <published>2020-02-23T13:06:44.613Z</published>
