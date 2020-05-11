@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://yoursite.com/2020/05/10/construct-binary-tree-from-inorder-preorder-postorder-traversal/</loc>
+    
+    <lastmod>2020-05-11T07:16:14.620Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://yoursite.com/2020/05/05/binary-tree-other-traversal-compare/</loc>
     
     <lastmod>2020-05-08T05:53:25.011Z</lastmod>
