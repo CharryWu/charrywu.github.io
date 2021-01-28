@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://yoursite.com/2021/01/28/46-permutations/</loc>
+    
+    <lastmod>2021-01-28T09:25:21.217Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://yoursite.com/2021/01/18/python3-bisect-left-vs-bisect-right/</loc>
     
     <lastmod>2021-01-19T04:23:33.815Z</lastmod>
