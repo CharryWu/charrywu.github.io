@@ -1,5 +1,8 @@
 ---
 outline: deep
+prev:
+  text: 'DLAI Overview'
+  link: '/ml-notes/dlai-prompt-engineering/'
 ---
 
 # ChatGPT Basics

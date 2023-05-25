@@ -1,4 +1,5 @@
-# Transformation using ChatGPT
+# Text Transformation using ChatGPT
+With ChatGPT, you can arbitrarily transform a piece of text, into whatever content you want
 ## Translation by Language
 ```py
 prompt = f"""
