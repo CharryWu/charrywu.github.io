@@ -3,23 +3,18 @@
 layout: home
 
 hero:
-  name: "Charry's Blog"
-  text: "Tech Blog by Charry Wu"
-  tagline: My great project tagline
-  actions:
-    - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
-    - theme: alt
-      text: API Examples
-      link: /api-examples
+  name: "Charry's Tech Blog"
+  text: "Code + Side Hustles"
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: ML Notes
+    details: Learning notes of machine learning courses
+    link: /ml-notes/
+  - title: Algorithms
+    details: Curated list of articles on leetcode algorithms, or algorithms in general
+    link: /algorithms/
+  - title: Guides
+    details: Project setup guides
+    link: /guides/
 ---
 

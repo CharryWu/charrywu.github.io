@@ -1,0 +1,18 @@
+/* .vitepress/theme/custom.css */
+:root {
+  --vp-c-brand: #2F4858;
+  --vp-c-bg: #F5F0BB;
+  --vp-c-bg-alt: #F7F2CB;
+  --vp-c-bg-soft: #DED9A5;
+  --vp-c-text-1: #2F4858;
+}
+
+.dark {
+
+  --vp-c-brand: #F5F0BB;
+  --vp-c-bg: #2F4858;
+  --vp-c-bg-alt: #5F788A;
+  --vp-c-bg-soft: #3E6A74;
+  --vp-c-text-1: #F5F0BB;
+  --vp-c-divider: #3E6A74;
+}
