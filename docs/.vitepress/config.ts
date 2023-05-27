@@ -39,13 +39,22 @@ export default defineConfig({
       {
         text: 'Algorithms',
         items: [
-          { text: 'Overview', link: '/algorithms/' },
+          {
+            text: 'Overview',
+            link: '/algorithms/'
+          },
         ]
       },
       {
         text: 'Guides',
         items: [
-          { text: 'Overview', link: '/guides/' },
+          {
+            text: 'Overview',
+            link: '/guides/',
+            items: [
+              { text: 'Docker Setup LinuxMint 21.1', link: '/guides/docker-linuxmint/' }
+            ]
+          },
         ]
       }
     ],
