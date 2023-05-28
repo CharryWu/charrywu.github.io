@@ -4,7 +4,7 @@ layout: home
 
 hero:
   name: "Charry's Tech Blog"
-  text: "Code + Side Hustles"
+  text: "Tutorials + Code"
 
 features:
   - title: ML Notes
