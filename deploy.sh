@@ -8,4 +8,4 @@ cd docs/.vitepress/dist # if you are deploying to a custom domain
 git add -A
 git commit -m 'deploy' # if you are deploying to https://<USERNAME>.github.io
 
-git push -f git@github.com:CharryWu/charrywu.github.io.git master
+git push
