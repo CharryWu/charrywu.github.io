@@ -8,13 +8,13 @@ hero:
 
 features:
   - title: ML Notes
-    details: Learning notes of machine learning courses
+    details: Study notes of machine learning
     link: /ml-notes/
-  - title: Algorithms
-    details: Curated list of articles on leetcode algorithms, or algorithms in general
-    link: /algorithms/
+  - title: Entrepreneurship 101
+    details: Articles & reflections on entrepreneurship and the startups world
+    link: /entrepreneurship/
   - title: Guides
-    details: Project setup guides
+    details: Project setup, program implementation, etc.
     link: /guides/
 ---
 

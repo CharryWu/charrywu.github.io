@@ -6,4 +6,4 @@ next:
 ---
 
 # Useful ffmpeg commands for common video editing tasks
-## [Deeplearning.ai Prompt Engineering](./speedup.md)
+## [FFmpeg speedup](./speedup.md)

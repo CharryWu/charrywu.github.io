@@ -9,15 +9,14 @@ export default defineConfig({
     nav: [
       { text: 'Home', link: '/' },
       { text: 'ML Notes', link: '/ml-notes/' },
-      { text: 'Algorithms', link: '/algorithms/' },
       { text: 'Guides', link: '/guides/' },
     ],
 
     sidebar: [
       {
         text: 'ML Notes',
+        link: '/ml-notes/',
         items: [
-          { text: 'Overview', link: '/ml-notes/' },
           {
             text: 'DLAI Prompt Engineering',
             link: '/ml-notes/dlai-prompt-engineering/',
@@ -37,36 +36,34 @@ export default defineConfig({
         ]
       },
       {
-        text: 'Algorithms',
+        text: 'Entrepreneurship',
+        link: '/entrepreneurship/',
         items: [
           {
-            text: 'Overview',
-            link: '/algorithms/'
+            text: 'Fundraising',
+            items: [
+              { text: 'Equity Crowdfunding Legals', link: '/entrepreneurship/fundraising/equity-crowdfunding-legals' },
+            ]
           },
         ]
       },
       {
         text: 'Guides',
+        link: '/guides/',
         items: [
+          { text: 'Docker Setup LinuxMint 21.1', link: '/guides/docker-linuxmint/' },
           {
-            text: 'Overview',
-            link: '/guides/',
+            text: 'Common ffmpeg commands',
+            link: '/guides/ffmpeg/',
             items: [
-              { text: 'Docker Setup LinuxMint 21.1', link: '/guides/docker-linuxmint/' },
               {
-                text: 'Common ffmpeg commands',
-                link: '/guides/ffmpeg/',
-                items: [
-                  {
-                    text: 'Speedup',
-                    link: '/guides/ffmpeg/speedup',
-                  }
-                ]
+                text: 'Speedup',
+                link: '/guides/ffmpeg/speedup',
               }
             ]
-          },
+          }
         ]
-      }
+      },
     ],
 
     socialLinks: [
