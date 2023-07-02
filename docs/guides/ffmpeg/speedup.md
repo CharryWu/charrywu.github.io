@@ -1,4 +1,4 @@
-# Speedup ffmpeg videos w/ audio
+# Speedup videos w/ audio
 Reference: https://superuser.com/a/1394709  
 Use complex fileter to speed up video w/ audio, where `<x>` is the speedup ratio
 ```bash

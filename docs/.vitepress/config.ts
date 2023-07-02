@@ -59,6 +59,10 @@ export default defineConfig({
               {
                 text: 'Speedup',
                 link: '/guides/ffmpeg/speedup',
+              },
+              {
+                text: 'Count frames',
+                link: '/guides/ffmpeg/count-frames',
               }
             ]
           }
