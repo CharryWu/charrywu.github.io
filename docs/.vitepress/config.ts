@@ -61,8 +61,20 @@ export default defineConfig({
                 link: '/guides/ffmpeg/speedup',
               },
               {
+                text: 'Trimming',
+                link: '/guides/ffmpeg/trimming',
+              },
+              {
+                text: 'Cropping',
+                link: '/guides/ffmpeg/cropping',
+              },
+              {
                 text: 'Count frames',
                 link: '/guides/ffmpeg/count-frames',
+              },
+              {
+                text: 'Extract frames',
+                link: '/guides/ffmpeg/extract-frames',
               }
             ]
           }
