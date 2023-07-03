@@ -10,6 +10,9 @@ features:
   - title: ML Notes
     details: Study notes of machine learning
     link: /ml-notes/
+  - title: Fullstack
+    details: All things related to fullstack dev
+    link: /fullstack/
   - title: Entrepreneurship 101
     details: Articles & reflections on entrepreneurship and the startups world
     link: /entrepreneurship/

@@ -9,6 +9,8 @@ export default defineConfig({
     nav: [
       { text: 'Home', link: '/' },
       { text: 'ML Notes', link: '/ml-notes/' },
+      { text: 'Fullstack', link: '/fullstack/' },
+      { text: 'Entrepreneurship', link: '/entrepreneurship/' },
       { text: 'Guides', link: '/guides/' },
     ],
 
@@ -31,6 +33,19 @@ export default defineConfig({
               { text: 'Chatbot', link: '/ml-notes/dlai-prompt-engineering/Chatbot' },
               { text: 'Temperature of LLM', link: '/ml-notes/dlai-prompt-engineering/Temperature-LLM' },
               { text: 'Boilerplate', link: '/ml-notes/dlai-prompt-engineering/Boilerplate' },
+            ]
+          },
+        ]
+      },
+      {
+        text: 'Fullstack',
+        link: '/fullstack/',
+        items: [
+          {
+            text: 'How browser works',
+            link: '/fullstack/how-browser-works/',
+            items: [
+              { text: 'Introduction', link: '/fullstack/how-browser-works/Introduction' },
             ]
           },
         ]
