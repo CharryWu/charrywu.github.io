@@ -22,6 +22,7 @@ export default defineConfig({
           {
             text: 'DLAI Prompt Engineering',
             link: '/ml-notes/dlai-prompt-engineering/',
+            collapsed: true,
             items: [
               { text: 'Overview', link: '/ml-notes/dlai-prompt-engineering/' },
               { text: 'Basics', link: '/ml-notes/dlai-prompt-engineering/Basics' },
@@ -70,6 +71,7 @@ export default defineConfig({
           {
             text: 'Common ffmpeg commands',
             link: '/guides/ffmpeg/',
+            collapsed: true,
             items: [
               {
                 text: 'Speedup',
