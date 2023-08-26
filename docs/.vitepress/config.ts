@@ -2,14 +2,14 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "Charry's Tech Blog",
+  title: "Charry's Tech Notes",
   description: "Code + Side Hustles",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
       { text: 'ML Notes', link: '/ml-notes/' },
-      { text: 'Fullstack', link: '/fullstack/' },
+      { text: 'Tech Designs', link: '/fullstack/' },
       { text: 'Entrepreneurship', link: '/entrepreneurship/' },
       { text: 'Guides', link: '/guides/' },
     ],
@@ -39,7 +39,7 @@ export default defineConfig({
         ]
       },
       {
-        text: 'Fullstack',
+        text: 'Tech Designs',
         link: '/fullstack/',
         items: [
           {
@@ -48,6 +48,10 @@ export default defineConfig({
             items: [
               { text: 'Introduction', link: '/fullstack/how-browser-works/Introduction' },
             ]
+          },
+          {
+            text: 'Video on Demand',
+            link: '/fullstack/video-on-demand/',
           },
         ]
       },

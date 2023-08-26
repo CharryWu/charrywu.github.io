@@ -3,15 +3,15 @@
 layout: home
 
 hero:
-  name: "Charry's Tech Blog"
+  name: "Charry's Tech Notes"
   text: "Tutorials + Code"
 
 features:
   - title: ML Notes
     details: Study notes of machine learning
     link: /ml-notes/
-  - title: Fullstack
-    details: All things related to fullstack dev
+  - title: Tech Designs
+    details: All things related to tech designs
     link: /fullstack/
   - title: Entrepreneurship 101
     details: Articles & reflections on entrepreneurship and the startups world
