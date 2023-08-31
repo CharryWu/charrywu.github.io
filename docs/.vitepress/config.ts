@@ -45,9 +45,6 @@ export default defineConfig({
           {
             text: 'How browser works',
             link: '/fullstack/how-browser-works/',
-            items: [
-              { text: 'Introduction', link: '/fullstack/how-browser-works/Introduction' },
-            ]
           },
           {
             text: 'Video on Demand',
