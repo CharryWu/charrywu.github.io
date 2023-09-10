@@ -62,6 +62,13 @@ export default defineConfig({
               { text: 'Equity Crowdfunding Legals', link: '/entrepreneurship/fundraising/equity-crowdfunding-legals' },
             ]
           },
+          {
+            text: 'SaaStr 2023 Notes',
+            link:'/entrepreneurship/saastr23/f500aiadoption',
+            items: [
+              { text: 'How the F500 is buying AI', link: '/entrepreneurship/saastr23/f500aiadoption' }
+            ]
+          }
         ]
       },
       {
