@@ -76,6 +76,12 @@ export default defineConfig({
         link: '/guides/',
         items: [
           { text: 'Docker Setup LinuxMint 21.1', link: '/guides/docker-linuxmint/' },
+          { text: 'Interview Guides', link: '/guides/interview-guide/', collapsed: true, items: [
+            {
+              text: 'Operating System',
+              link: 'guides/interview-guide/operating-system',
+            }
+          ] },
           {
             text: 'Common ffmpeg commands',
             link: '/guides/ffmpeg/',
