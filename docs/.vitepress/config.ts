@@ -8,6 +8,7 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
+      { text: 'DSA & LeetCode', link: '/dsa-notes/' },
       { text: 'ML Notes', link: '/ml-notes/' },
       { text: 'Tech Designs', link: '/fullstack/' },
       { text: 'Entrepreneurship', link: '/entrepreneurship/' },
@@ -15,6 +16,20 @@ export default defineConfig({
     ],
 
     sidebar: [
+      {
+        text: 'DSA & LeetCode',
+        link: '/dsa-notes/',
+        items: [
+          {
+            text: 'Backtracking',
+            link: '/dsa-notes/backtracking/',
+            collapsed: true,
+            items: [
+              { text: 'Permutations', link: '/dsa-notes/backtracking/permutations' },
+            ]
+          },
+        ]
+      },
       {
         text: 'ML Notes',
         link: '/ml-notes/',

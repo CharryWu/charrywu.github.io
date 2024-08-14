@@ -7,6 +7,9 @@ hero:
   text: "Tutorials + Code"
 
 features:
+  - title: DSA + LeetCode
+    details: Study notes of leetcode data structures & algorithms
+    link: /dsa-notes/
   - title: ML Notes
     details: Study notes of machine learning
     link: /ml-notes/
