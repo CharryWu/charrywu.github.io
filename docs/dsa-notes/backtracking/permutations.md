@@ -1,3 +1,9 @@
+The basic intuition is that, for each position i of the generated permutation, we take one from the remaining candidate pool
+
+We're making n-i decisions, therefore making n-i recursive calls
+
+We can use a for loop inside backtrack function to achieve this
+
 There're two methods to generate all permutations of a given list
 ## Swap
 
