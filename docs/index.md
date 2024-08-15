@@ -13,14 +13,11 @@ features:
   - title: ML Notes
     details: Study notes of machine learning
     link: /ml-notes/
-  - title: Tech Designs
-    details: All things related to tech designs
-    link: /fullstack/
-  - title: Entrepreneurship 101
-    details: Articles & reflections on entrepreneurship and the startups world
-    link: /entrepreneurship/
-  - title: Guides
-    details: Project setup, program implementation, etc.
-    link: /guides/
+  - title: Fullstack Notes
+    details: Notes of fullstack development
+    link: /fullstack
+  - title: Miscellaneous
+    details: Miscellaneous Articles
+    link: /misc/
 ---
 

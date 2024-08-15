@@ -10,9 +10,8 @@ export default defineConfig({
       { text: 'Home', link: '/' },
       { text: 'DSA & LeetCode', link: '/dsa-notes/' },
       { text: 'ML Notes', link: '/ml-notes/' },
-      { text: 'Tech Designs', link: '/fullstack/' },
-      { text: 'Entrepreneurship', link: '/entrepreneurship/' },
-      { text: 'Guides', link: '/guides/' },
+      { text: 'Fullstack', link: '/fullstack/' },
+      { text: 'Misc', link: '/misc/' },
     ],
 
     sidebar: [
@@ -77,59 +76,47 @@ export default defineConfig({
         ]
       },
       {
-        text: 'Entrepreneurship',
-        link: '/entrepreneurship/',
+        text: 'Misc',
+        link: '/misc/',
         items: [
           {
             text: 'Fundraising',
             items: [
-              { text: 'Equity Crowdfunding Legals', link: '/entrepreneurship/fundraising/equity-crowdfunding-legals' },
+              { text: 'Equity Crowdfunding Legals', link: '/misc/fundraising/equity-crowdfunding-legals' },
             ]
           },
           {
             text: 'SaaStr 2023 Notes',
-            link:'/entrepreneurship/saastr23/f500aiadoption',
+            link:'/misc/saastr23/f500aiadoption',
             items: [
-              { text: 'How the F500 is buying AI', link: '/entrepreneurship/saastr23/f500aiadoption' }
+              { text: 'How the F500 is buying AI', link: '/misc/saastr23/f500aiadoption' }
             ]
-          }
-        ]
-      },
-      {
-        text: 'Guides',
-        link: '/guides/',
-        items: [
-          { text: 'Docker Setup LinuxMint 21.1', link: '/guides/docker-linuxmint/' },
-          { text: 'Interview Guides', link: '/guides/interview-guide/', collapsed: true, items: [
-            {
-              text: 'Operating System',
-              link: 'guides/interview-guide/operating-system',
-            }
-          ] },
+          },
+          { text: 'Docker Setup LinuxMint 21.1', link: '/misc/docker-linuxmint/' },
           {
             text: 'Common ffmpeg commands',
-            link: '/guides/ffmpeg/',
+            link: '/misc/ffmpeg/',
             collapsed: true,
             items: [
               {
                 text: 'Speedup',
-                link: '/guides/ffmpeg/speedup',
+                link: '/misc/ffmpeg/speedup',
               },
               {
                 text: 'Trimming',
-                link: '/guides/ffmpeg/trimming',
+                link: '/misc/ffmpeg/trimming',
               },
               {
                 text: 'Cropping',
-                link: '/guides/ffmpeg/cropping',
+                link: '/misc/ffmpeg/cropping',
               },
               {
                 text: 'Count frames',
-                link: '/guides/ffmpeg/count-frames',
+                link: '/misc/ffmpeg/count-frames',
               },
               {
                 text: 'Extract frames',
-                link: '/guides/ffmpeg/extract-frames',
+                link: '/misc/ffmpeg/extract-frames',
               }
             ]
           }
