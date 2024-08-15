@@ -1,8 +1,5 @@
 ---
 outline: deep
-next:
-  text: 'Subsets'
-  link: '/dsa-notes/backtracking/subsets'
 ---
 ## Generate subsets for given list
 Similar to permutation, for each position we're only making two choices: whether to include nums[i] or not include

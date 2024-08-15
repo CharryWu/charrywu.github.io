@@ -23,7 +23,7 @@ export default defineConfig({
           {
             text: 'Backtracking',
             link: '/dsa-notes/backtracking/',
-            collapsed: true,
+            collapsed: false,
             items: [
               { text: 'Permutations', link: '/dsa-notes/backtracking/permutations' },
               { text: 'Subsets', link: '/dsa-notes/backtracking/subsets' },

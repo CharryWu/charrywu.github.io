@@ -1,8 +1,5 @@
 ---
 outline: deep
-next:
-  text: 'Subsets'
-  link: '/dsa-notes/backtracking/subsets'
 ---
 ## Generate all permutations of given list
 The basic intuition is that, for each position i of the generated permutation, we take one from the remaining candidate pool
