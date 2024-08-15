@@ -29,24 +29,26 @@ we can easily skip the contiguous region and only select the first one to be con
 class Solution:
     def subsetsWithDup(self, nums: List[int]) -> List[List[int]]:
         res = []
+        n = len(nums)
         nums.sort()
 
         def backtrack(path, i):
-            if i == len(nums):
+            if i == n:
                 res.append(path.copy())
                 return
 
-            # All path that include nums[i]
+            # include nums[i]
             path.append(nums[i])
             backtrack(path, i+1)
-
-            # All path that does not include nums[i]
             path.pop()
-            # since array is sorted, skip all duplicates
-            while i < len(nums)-1 and nums[i] == nums[i+1]:
+
+            # don't include nums[i], before recursive call we need to
+            # skip all decision to include duplicate nums[i]
+            # Since we've included already
+            while i < n-1 and nums[i] == nums[i+1]:
                 i += 1
 
             backtrack(path, i+1)
-        backtrack(0, [])
+        backtrack([], 0)
         return res
 ```
