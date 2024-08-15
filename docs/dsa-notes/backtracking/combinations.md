@@ -4,7 +4,7 @@ class Solution:
         res = []
         def backtrack(start, path):
             """
-            Diff from permutation: inner loop starts from current position,
+            Diff from permutation: loop doesn't exchange the position of
             not from begin of array
             """
             if len(path) == k:

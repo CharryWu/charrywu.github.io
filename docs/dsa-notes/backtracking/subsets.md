@@ -1,3 +1,10 @@
+---
+outline: deep
+next:
+  text: 'Subsets'
+  link: '/dsa-notes/backtracking/subsets'
+---
+## Generate subsets for given list
 Similar to permutation, for each position we're only making two choices: whether to include nums[i] or not include
 Therefore, we're making two recursive calls to backtrack funciton
 ```python
@@ -20,7 +27,7 @@ class Solution:
         return res
 ```
 
-Variant: If the subset contains duplicate, how to remove duplicate?
+## [Variant]: Generate If the generated subset contains duplicate, how to remove duplicate?
 
 Well, the answer is, we sort the input list, so if there're any duplicates,
 we can easily skip the contiguous region and only select the first one to be considered
