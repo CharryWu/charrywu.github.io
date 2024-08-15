@@ -23,11 +23,18 @@ export default defineConfig({
           {
             text: 'Backtracking',
             link: '/dsa-notes/backtracking/',
-            collapsed: false,
+            collapsed: true,
             items: [
               { text: 'Permutations', link: '/dsa-notes/backtracking/permutations' },
               { text: 'Subsets', link: '/dsa-notes/backtracking/subsets' },
               { text: 'Combinations', link: '/dsa-notes/backtracking/combinations' },
+            ]
+          },
+          {
+            text: 'Binary Search',
+            link: '/dsa-notes/binary-search/',
+            collapsed: true,
+            items: [
             ]
           },
         ]
