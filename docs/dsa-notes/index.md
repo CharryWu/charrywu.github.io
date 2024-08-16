@@ -1,6 +1,7 @@
 # DSA Topic List
 ## [Backtracking](./backtracking/index.md)
 ## [Binary Search](./binary-search/index.md)
+## [Stack](./stack/index.md)
 
 
 ## Reference:

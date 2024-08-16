@@ -36,6 +36,10 @@ export default defineConfig({
             items: [
             ]
           },
+          {
+            text: 'Stack',
+            link: '/dsa-notes/stack/',
+          },
         ]
       },
       {
