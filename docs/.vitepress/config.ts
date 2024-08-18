@@ -40,6 +40,14 @@ export default defineConfig({
             text: 'Stack',
             link: '/dsa-notes/stack/',
           },
+          {
+            text: 'Sorting',
+            link: '/dsa-notes/sorting/',
+            collapsed: true,
+            items: [
+              { text: 'Quick Sort', link: '/dsa-notes/sorting/quick-sort' },
+            ]
+          },
         ]
       },
       {

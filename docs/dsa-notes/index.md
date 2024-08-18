@@ -2,6 +2,7 @@
 ## [Backtracking](./backtracking/index.md)
 ## [Binary Search](./binary-search/index.md)
 ## [Stack](./stack/index.md)
+## [Sorting](./sorting/index.md)
 
 
 ## Reference:
