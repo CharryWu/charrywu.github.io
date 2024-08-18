@@ -47,7 +47,7 @@ export default defineConfig({
         link: '/fullstack/',
         items: [
           {
-            text: 'Implement promise.all',
+            text: 'Implement promise.all/any',
             link: '/fullstack/implement-promise-all',
           },
           {
