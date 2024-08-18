@@ -43,6 +43,24 @@ export default defineConfig({
         ]
       },
       {
+        text: 'Fullstack Notes',
+        link: '/fullstack/',
+        items: [
+          {
+            text: 'Implement promise.all',
+            link: '/fullstack/implement-promise-all',
+          },
+          {
+            text: 'How browser works',
+            link: '/fullstack/how-browser-works',
+          },
+          {
+            text: 'Video on Demand',
+            link: '/fullstack/video-on-demand',
+          },
+        ]
+      },
+      {
         text: 'ML Notes',
         link: '/ml-notes/',
         items: [
@@ -62,24 +80,6 @@ export default defineConfig({
               { text: 'Temperature of LLM', link: '/ml-notes/dlai-prompt-engineering/Temperature-LLM' },
               { text: 'Boilerplate', link: '/ml-notes/dlai-prompt-engineering/Boilerplate' },
             ]
-          },
-        ]
-      },
-      {
-        text: 'Tech Designs',
-        link: '/fullstack/',
-        items: [
-          {
-            text: 'Implement promise.all',
-            link: '/fullstack/implement-promise-all',
-          },
-          {
-            text: 'How browser works',
-            link: '/fullstack/how-browser-works',
-          },
-          {
-            text: 'Video on Demand',
-            link: '/fullstack/video-on-demand',
           },
         ]
       },
