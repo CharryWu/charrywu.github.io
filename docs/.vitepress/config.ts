@@ -71,15 +71,15 @@ export default defineConfig({
         items: [
           {
             text: 'Implement promise.all',
-            link: '/fullstack/implement-promise-all/',
+            link: '/fullstack/implement-promise-all',
           },
           {
             text: 'How browser works',
-            link: '/fullstack/how-browser-works/',
+            link: '/fullstack/how-browser-works',
           },
           {
             text: 'Video on Demand',
-            link: '/fullstack/video-on-demand/',
+            link: '/fullstack/video-on-demand',
           },
         ]
       },
