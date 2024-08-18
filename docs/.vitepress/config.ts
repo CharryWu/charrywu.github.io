@@ -70,6 +70,10 @@ export default defineConfig({
         link: '/fullstack/',
         items: [
           {
+            text: 'Implement promise.all',
+            link: '/fullstack/implement-promise-all/',
+          },
+          {
             text: 'How browser works',
             link: '/fullstack/how-browser-works/',
           },

@@ -15,7 +15,7 @@ features:
     link: /ml-notes/
   - title: Fullstack Notes
     details: Notes of fullstack development
-    link: /fullstack
+    link: /fullstack/
   - title: Miscellaneous
     details: Miscellaneous Articles
     link: /misc/
