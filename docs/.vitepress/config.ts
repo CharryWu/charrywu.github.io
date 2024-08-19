@@ -63,6 +63,10 @@ export default defineConfig({
             link: '/fullstack/implement-debounce-throttle',
           },
           {
+            text: 'Implement memoize',
+            link: '/fullstack/implement-memoize',
+          },
+          {
             text: 'How browser works',
             link: '/fullstack/how-browser-works',
           },
