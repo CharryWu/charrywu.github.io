@@ -59,6 +59,10 @@ export default defineConfig({
             link: '/fullstack/implement-promise-all',
           },
           {
+            text: 'Implement debounce/throttle',
+            link: '/fullstack/implement-debounce-throttle',
+          },
+          {
             text: 'How browser works',
             link: '/fullstack/how-browser-works',
           },
