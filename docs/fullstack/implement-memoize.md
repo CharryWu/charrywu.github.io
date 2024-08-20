@@ -37,10 +37,6 @@ export default function memoize(func) {
  * @param {Function} func
  * @returns Function
  */
-/**
- * @param {Function} func
- * @returns Function
- */
 export default function memoize(func) {
   const cache = new Map();
 
