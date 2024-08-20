@@ -11,10 +11,10 @@ features:
     details: Study notes of leetcode data structures & algorithms
     link: /dsa-notes/
   - title: ML Notes
-    details: Study notes of machine learning
+    details: Study notes related to machine learning
     link: /ml-notes/
-  - title: Fullstack Notes
-    details: Notes of fullstack development
+  - title: Fullstack Interview Knowledge
+    details: Fullstack Related Interview Questions & Solutions
     link: /fullstack/
   - title: Miscellaneous
     details: Miscellaneous Articles
