@@ -111,6 +111,43 @@ const debounce = (func, wait, immediate) => {
 }
 ```
 
+## Debounce with return value as promise
+```js
+//Debounce function with return value using promises
+/**
+ * Creates a debounced function that delays invoking `callback` until after `delay` milliseconds
+ * have elapsed since the last time the debounced function was invoked.
+ *
+ * @param {Function} callback - The function to debounce.
+ * @param {number} delay - The number of milliseconds to delay.
+ * @returns {Function} - A debounced version of the callback function.
+ */
+function debounce(callback, delay) {
+  let timer; // Variable to store the timeout ID
+
+  // Return a function that wraps the callback with debouncing logic
+  return function(...args) {
+    const context = this;
+    return new Promise((resolve, reject) => {
+      // Clear the previous timeout to reset the delay
+      clearTimeout(timer);
+
+      // Set a new timeout to invoke the callback after the delay
+      timer = setTimeout(() => {
+        try {
+          // Invoke the callback with the provided arguments
+          let output = callback.apply(context, args);
+          // Resolve the promise with the callback's output
+          resolve(output);
+        } catch (err) {
+          // If an error occurs, reject the promise with the error
+          reject(err);
+        }
+      }, delay);
+    });
+  };
+}
+```
 
 ## Throttle
 A throttled function can be in two states: it's either:
