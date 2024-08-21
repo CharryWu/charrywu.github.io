@@ -3,6 +3,7 @@
 ## [Binary Search](./binary-search/index.md)
 ## [Stack](./stack/index.md)
 ## [Sorting](./sorting/index.md)
+## [Trie](./trie.md)
 
 
 ## Reference:

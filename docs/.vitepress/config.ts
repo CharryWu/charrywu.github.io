@@ -30,6 +30,10 @@ export default defineConfig({
             ]
           },
           {
+            text: 'Trie',
+            link: '/dsa-notes/trie/',
+          },
+          {
             text: 'Binary Search',
             link: '/dsa-notes/binary-search/',
             collapsed: true,
