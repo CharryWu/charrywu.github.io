@@ -59,8 +59,12 @@ export default defineConfig({
         link: '/fullstack/',
         items: [
           {
-            text: 'Implement promise.all/any',
+            text: 'Implement Promise.all/any',
             link: '/fullstack/implement-promise-all',
+          },
+          {
+            text: 'Implement Promise.resolve/reject',
+            link: '/fullstack/implement-promise-resolve-reject',
           },
           {
             text: 'Implement debounce/throttle',
