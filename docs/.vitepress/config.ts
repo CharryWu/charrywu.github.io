@@ -71,6 +71,10 @@ export default defineConfig({
             link: '/fullstack/implement-debounce-throttle',
           },
           {
+            text: 'Implement deep clone',
+            link: '/fullstack/implement-deep-clone',
+          },
+          {
             text: 'Implement memoize',
             link: '/fullstack/implement-memoize',
           },

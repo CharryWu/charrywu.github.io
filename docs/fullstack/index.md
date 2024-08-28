@@ -3,5 +3,6 @@
 ## [Implement `Promise.resolve` and `Promise.reject`](./implement-promise-resolve-reject.md)
 ## [Implement `Debounce` and `Throttle`](./implement-promise-all.md)
 ## [Implement `memoize`](./implement-memoize.md)
+## [Implement deep clone](./implement-deep-clone.md)
 ## [How browser works](./how-browser-works.md)
 ## [Video on demand](./video-on-demand.md)
