@@ -79,6 +79,10 @@ export default defineConfig({
             link: '/fullstack/implement-memoize',
           },
           {
+            text: 'Macrotasks vs. Microtasks',
+            link: '/fullstack/macro-micro-task-promise-settimeout',
+          },
+          {
             text: 'How browser works',
             link: '/fullstack/how-browser-works',
           },
