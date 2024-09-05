@@ -83,6 +83,10 @@ export default defineConfig({
             link: '/fullstack/macro-micro-task-promise-settimeout',
           },
           {
+            text: 'System Design: Poll Widget',
+            link: '/fullstack/system-design-poll-widget',
+          },
+          {
             text: 'How browser works',
             link: '/fullstack/how-browser-works',
           },

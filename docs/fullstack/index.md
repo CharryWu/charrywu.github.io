@@ -5,5 +5,6 @@
 ## [Implement `memoize`](./implement-memoize.md)
 ## [Implement deep clone](./implement-deep-clone.md)
 ## [Macrotasks vs. Microtasks order](./macro-micro-task-promise-settimeout.md)
+## [System Design: Poll Widget](./system-design-poll-widget.md)
 ## [How browser works](./how-browser-works.md)
 ## [Video on demand](./video-on-demand.md)
