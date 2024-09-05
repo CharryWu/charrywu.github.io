@@ -36,7 +36,7 @@ Cons:
 `<iframe>` (inline frame) is an HTML tag on a page which accepts a src attribute, which is a URL for a website you want to embed within the host website.
 They are essentially websites that only render the contents to be embedded.
 
-Usually you need to provide HTML `<iframe>` code or `<script>` that automatically injects iframe with parameters
+Usually you need to provide HTML `<iframe>` code or `<script>` that automatically sets up iframe with browser context (screen size, language, etc.)
 
 Pros:
 - An iframe is a separate website and hence a separate browsing context. The contents of the iframe is isolated from the hosting site and vice versa.
@@ -221,11 +221,12 @@ Note that `scaleX()` will also transform contents within it and make them appear
 Polling widgets are inherently very visual UI elements and we need to take special care to ensure users relying on screen readers can still understand what is being shown on the screen.
 
 - Screen reader users will not know how long a bar is, hence `aria-label`, `title`, `aria-describedbys` need to be used for the poll options to indicate the option name, the number of votes, and the percentage if they are not in the rendered visual output.
-- Use `aria-live` to announce updates for any change in values of the results when the client receives a server response.
+- Use `aria-live` to announce updates for any change in values of the results when the client receives a server response. `aria-live` has three values: `off`(default), `polite`, `assertive`
 - ARIA roles for options: `role="radiogroup"` and `role="radio"` for polls where only one option can be selected.
 
-Keyboard interaction
-`<button>`s are preferred for rendering poll options but if there's a reason to use `<div>`s, they should be made focusable by adding the `tabindex="0"` and `role="button"` attributes.
+- Keyboard interaction
+  - `<button>`s are preferred for rendering poll options but if there's a reason to use `<div>`s, they should be made focusable by adding the `tabindex="0"` and `role="button"` attributes.
+  - Allow tab between options + vote / unvote all using keyboard interaction only
 
 
 ### Anonymous voting: Persisting votes across sessions
@@ -239,3 +240,12 @@ Note that users can work around this by using different browsers or on different
 
 ### Internationalization (i18n)
 If there's a need for i18n of strings in the poll, especially the strings not from the poll creator (e.g. aria-labels), the iframe embed URL can accept a query parameter for the language and it'll be up to the website owner to provide the right language.
+
+
+## Extensibility
+- CSS API
+  - Option item
+  - ReadOnly Item
+  - Title
+- Render Function as props
+- ES6 Inheritance
