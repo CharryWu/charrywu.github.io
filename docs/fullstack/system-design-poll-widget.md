@@ -21,7 +21,18 @@
 
 ## Architecture
 ### Rendering Approach
+
+#### Render within the page (same browser context)
+![Dependency Graph](/assets/img/system-design-poll-widget-dependency-graph.png)
+Pros:
+- CSS styling can be controlled by site builders of the widget & customized. Can provide `renderOption` as prop
+- It is fast to render the poll widget within the same page.
+
+Cons:
+- The poll widget can be affected by the host website's JavaScript environment and global styling. There's no telling what kind of global styling is present and it is very likely for the widget's appearance to be affected by the website's CSS.
+
 #### Render as `<iframe>`
+![Iframe Diagram](https://www.greatfrontend.com/img/questions/poll-widget/poll-widget-architecture.png)
 `<iframe>` (inline frame) is an HTML tag on a page which accepts a src attribute, which is a URL for a website you want to embed within the host website.
 They are essentially websites that only render the contents to be embedded.
 
@@ -38,14 +49,6 @@ Cons:
 - It is slower to load a separate website than to render it directly into the page.
 - Because of the isolation, the host website cannot use CSS to customize the component internals.
 - Need a web server to host a website that renders the widget. This is not a huge deal because the a web server is needed to serve the poll results anyway. Depending on the type of website you build, this setup can range from simple to complex.
-
-#### Render within the page (same browser context)
-Pros:
-- CSS styling can be controlled by site builders of the widget & customized. Can provide `renderOption` & `renderViewOnlyOption` as prop
-- It is fast to render the poll widget within the same page.
-
-Cons:
-- The poll widget can be affected by the host website's JavaScript environment and global styling. There's no telling what kind of global styling is present and it is very likely for the widget's appearance to be affected by the website's CSS.
 
 ## Data Model
 ### Poll Entity:
