@@ -1,6 +1,7 @@
 # DSA Topic List
 ## [Backtracking](./backtracking/index.md)
 ## [Binary Search](./binary-search/index.md)
+## [Heap](./heap/index.md)
 ## [Stack](./stack/index.md)
 ## [Sorting](./sorting/index.md)
 ## [Trie](./trie.md)

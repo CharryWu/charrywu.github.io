@@ -41,6 +41,16 @@ export default defineConfig({
             ]
           },
           {
+            text: 'Heap',
+            link: '/dsa-notes/heap/',
+            collapsed: true,
+            items: [{
+              text: 'Kth Largest Element',
+              link: '/dsa-notes/heap/kth-largest-element',
+            }
+            ]
+          },
+          {
             text: 'Stack',
             link: '/dsa-notes/stack/',
           },
