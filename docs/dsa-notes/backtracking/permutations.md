@@ -14,6 +14,12 @@ There're two methods to generate all permutations of a given list
 ```python
 class Solution:
     def permute(self, nums: List[int]) -> List[List[int]]:
+        """
+        Time Complexity: O(N*N!) | Space: O(N)
+        It takes O(N) to add one permutation using `path.copy()`, and there're O(N!) permutations in total
+
+        Space is O(N) because path and max recursion stack takes O(N) space
+        """
         res = []
         n = len(nums)
         def backtrack(path, i):
@@ -129,4 +135,31 @@ class Solution:
 
         backtrack(nums.copy(), 0)
         return res
+```
+
+## Generate permutation of 1..N using list concat:
+```python
+def generate_permutations(n):
+    result = []
+
+    def backtrack(current_perm, remaining_nums):
+        # Base case: when the permutation is complete
+        if len(current_perm) == n:
+            result.append(current_perm[:])
+            return
+
+        # Try each remaining number in the next position
+        for i in range(len(remaining_nums)):
+            # Add the number to the current permutation
+            current_perm.append(remaining_nums[i])
+
+            # Recurse with the remaining numbers
+            backtrack(current_perm, remaining_nums[:i] + remaining_nums[i+1:])
+
+            # Backtrack: remove the number and try the next one
+            current_perm.pop()
+
+    # Start backtracking with an empty permutation and the list of numbers from 1 to n
+    backtrack([], list(range(1, n + 1)))
+    return result
 ```

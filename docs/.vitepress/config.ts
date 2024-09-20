@@ -20,6 +20,10 @@ export default defineConfig({
         link: '/dsa-notes/',
         items: [
           {
+            text: 'Actual Interview Questions',
+            link: '/dsa-notes/interview/',
+          },
+          {
             text: 'Backtracking',
             link: '/dsa-notes/backtracking/',
             collapsed: true,
