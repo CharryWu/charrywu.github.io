@@ -44,7 +44,7 @@
    - 249. Group Shifted Strings
    - 791. Custom Sort String
 
-7. [**Hashing and Counting**](./):
+7. [**Hashing and Counting**](./hashing-and-counting.md):
    - 560. Subarray Sum Equals K
    - 525. Contiguous Array
    - 1762. Buildings With an Ocean View
