@@ -32,8 +32,8 @@ Using GFE, you can practice following types of commonly asked frontend interview
 ![GFE JS Question List](./gfe-js-list.png)
 - [Coding UI widget](https://www.greatfrontend.com/questions/user-interface), such as [star rating](https://www.greatfrontend.com/questions/user-interface/star-rating?format=user-interface) or [todo list](https://www.greatfrontend.com/questions/user-interface/todo-list?format=user-interface), using framework of your choice (React/Angular/Vue/Svelte). Reference implementations are also provided.
 ![GFE UI Coding](./gfe-star-rating.png)
-- For interview of senior positions, GFE also has a dedicated section for [frontend system design](https://www.greatfrontend.com/front-end-system-design-playbook) using the [RADIO framework](https://www.greatfrontend.com/front-end-system-design-playbook/framework). Their answer key to each design question was quite comprehensive, covering all aspects of potential follow ups. I found this section to be the most educating and useful to my daily frontend development work.
-
+- For senior level interviews, GFE also has a dedicated section for [frontend system design](https://www.greatfrontend.com/front-end-system-design-playbook) using the [RADIO framework](https://www.greatfrontend.com/front-end-system-design-playbook/framework). Their answer key to each design question was quite comprehensive, covering all aspects of potential follow ups. I found this section to be the most educating and useful to my daily frontend development work.
+![GFE System Design - Netflix](./gfe-system-design-netflix.png)
 
 All questions are tiered as easy/medium/hard and [labeled by companies](https://www.greatfrontend.com/interviews/company). If you have tight timeline, GFE also provides curated list of [study plans](https://www.greatfrontend.com/interviews/study-plans) and [focus areas](https://www.greatfrontend.com/interviews/focus-areas) to ensure your timed preparation covers important concepts.
 ![GFE Study Plan](./gfe-study-plan.png)
