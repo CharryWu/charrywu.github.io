@@ -9,7 +9,7 @@ hero:
 features:
   - title: Project Gallery
     details: personal projects demo
-    link: /webtools/
+    link: https://charrywu.github.io/webtools/ # jump to another page, need full URL to prevent VitePress routing
   - title: DSA + LeetCode
     details: data structures & algorithms
     link: /dsa-notes/
