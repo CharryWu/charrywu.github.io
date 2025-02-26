@@ -7,17 +7,20 @@ hero:
   text: "Tutorials + Code"
 
 features:
+  - title: Project Gallery
+    details: personal projects demo
+    link: /webtools/
   - title: DSA + LeetCode
-    details: Study notes of leetcode data structures & algorithms
+    details: data structures & algorithms
     link: /dsa-notes/
-  - title: ML Notes
-    details: Study notes related to machine learning
+  - title: ML/AI Notes
+    details: study notes on ML & GenAI
     link: /ml-notes/
   - title: Fullstack Interview Knowledge
-    details: Fullstack Related Interview Questions & Solutions
+    details: fullstack interview solutions
     link: /fullstack/
   - title: Miscellaneous
-    details: Miscellaneous Articles
+    details: miscellaneous Articles
     link: /misc/
 ---
 
