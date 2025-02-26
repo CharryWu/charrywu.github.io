@@ -14,17 +14,17 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4.2.2
         with:
           fetch-depth: 0
-      - uses: actions/setup-node@v3
+      - uses: actions/setup-node@v4.2.0
         with:
-          node-version: 16
+          node-version: 20
           cache: yarn
       - run: yarn install --frozen-lockfile
       - name: Build
         run: yarn docs:build
-      - uses: actions/configure-pages@v2
+      - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
           path: docs/.vitepress/dist
