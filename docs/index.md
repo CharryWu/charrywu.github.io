@@ -4,7 +4,7 @@ layout: home
 
 hero:
   name: "Charry's Tech Notes"
-  text: "Web dev (JS & Python) · Rust & CUDA for AI"
+  text: "Pytorch, CUDA, Rust"
 
 features:
   # Software projects with thumbnails - direct links to each project
