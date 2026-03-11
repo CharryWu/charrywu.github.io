@@ -8,13 +8,14 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'DSA & LeetCode', link: '/dsa-notes/' },
-      { text: 'ML Notes', link: '/ml-notes/' },
-      { text: 'Fullstack', link: '/fullstack/' },
-      { text: 'Misc', link: '/misc/' },
+      { text: 'Notes', link: '/notes/' },
     ],
 
     sidebar: [
+      {
+        text: 'Notes',
+        link: '/notes/',
+      },
       {
         text: 'DSA & LeetCode',
         link: '/dsa-notes/',
