@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+    <linearGradient id="g1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#4ade80"/>
+      <stop offset="100%" stop-color="#22c55e"/>
+    </linearGradient>
+    <linearGradient id="g2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#4ade80"/>
+      <stop offset="100%" stop-color="#3b82f6"/>
+    </linearGradient>
+    <linearGradient id="g3" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#4ade80"/>
+      <stop offset="100%" stop-color="#8b5cf6"/>
+    </linearGradient>
+    <linearGradient id="g4" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#4ade80"/>
+      <stop offset="100%" stop-color="#ef4444"/>
+    </linearGradient>
+    <linearGradient id="g5" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#4ade80"/>
+      <stop offset="100%" stop-color="#f97316"/>
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="16" fill="url(#bg)"/>
+  <!-- Source bar -->
+  <rect x="12" y="20" width="10" height="88" rx="5" fill="#4ade80"/>
+  <text x="17" y="70" font-family="system-ui,sans-serif" font-weight="700" font-size="16" fill="#0f172a" text-anchor="middle">$</text>
+  <!-- Flow 1: Take-home (green, largest) -->
+  <path d="M22 24 C50 24, 60 12, 88 12 L88 38 C60 38, 50 42, 22 42Z" fill="url(#g1)" opacity="0.85"/>
+  <rect x="88" y="10" width="8" height="30" rx="4" fill="#22c55e"/>
+  <text x="105" y="30" font-family="system-ui,sans-serif" font-size="8" fill="#94a3b8" font-weight="600">Net</text>
+  <!-- Flow 2: Federal (blue) -->
+  <path d="M22 43 C50 43, 60 44, 88 44 L88 58 C60 58, 50 53, 22 53Z" fill="url(#g2)" opacity="0.75"/>
+  <rect x="88" y="42" width="8" height="18" rx="4" fill="#3b82f6"/>
+  <text x="105" y="55" font-family="system-ui,sans-serif" font-size="7" fill="#94a3b8" font-weight="600">Fed</text>
+  <!-- Flow 3: State (purple) -->
+  <path d="M22 54 C50 54, 60 63, 88 63 L88 74 C60 74, 50 62, 22 62Z" fill="url(#g3)" opacity="0.75"/>
+  <rect x="88" y="62" width="8" height="13" rx="4" fill="#8b5cf6"/>
+  <text x="105" y="72" font-family="system-ui,sans-serif" font-size="7" fill="#94a3b8" font-weight="600">State</text>
+  <!-- Flow 4: FICA (red) -->
+  <path d="M22 63 C50 63, 60 80, 88 80 L88 90 C60 90, 50 73, 22 73Z" fill="url(#g4)" opacity="0.75"/>
+  <rect x="88" y="79" width="8" height="12" rx="4" fill="#ef4444"/>
+  <text x="105" y="89" font-family="system-ui,sans-serif" font-size="7" fill="#94a3b8" font-weight="600">FICA</text>
+  <!-- Flow 5: 401k/HSA (orange) -->
+  <path d="M22 74 C50 74, 60 96, 88 96 L88 108 C60 108, 50 88, 22 88Z" fill="url(#g5)" opacity="0.7"/>
+  <rect x="88" y="95" width="8" height="14" rx="4" fill="#f97316"/>
+  <text x="105" y="106" font-family="system-ui,sans-serif" font-size="7" fill="#94a3b8" font-weight="600">401k</text>
+</svg>

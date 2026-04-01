@@ -17,6 +17,15 @@ features:
       alt: Ferris + NVIDIA
       width: "128"
       height: "128"
+  - title: TC Flow
+    details: Interactive total compensation visualizer. See where every dollar goes with Sankey diagrams, tax bracket breakdowns, and take-home pay calculations.
+    link: https://charrywu.github.io/tc-flow/
+    linkText: View App
+    icon:
+      src: /tc-flow-thumb.svg
+      alt: TC Flow Sankey Diagram
+      width: "128"
+      height: "128"
   - title: Text to Long Image
     details: Transform texts to article images for mobile screens. Convert text into long-form graphics for social posts.
     link: https://charrywu.github.io/webtools/text2longimage/
