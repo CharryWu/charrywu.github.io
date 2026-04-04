@@ -1,0 +1,27 @@
+---
+description: Deploy by running deploy.sh instead of git commit
+alwaysApply: true
+---
+
+# Deploy Workflow
+
+**NEVER use `git commit`, `git add`, or `git push` directly in this repo.**
+
+When the user asks to commit, deploy, push, or publish changes, always run:
+
+```sh
+sh deploy.sh
+```
+
+This single script: builds VitePress (`yarn docs:build`), commits the dist output, and pushes to GitHub, which triggers the upstream GitHub Actions pipeline automatically.
+
+## Why
+`deploy.sh` operates on the built `docs/.vitepress/dist/` subtree, not the source tree. Running `git commit` on the source would skip the build and break the published site.
+
+## Checklist before deploying
+- Verify all file edits are saved.
+- Run `yarn docs:build` mentally — `deploy.sh` will do it, but flag any known build errors first.
+- Then run `sh deploy.sh` from the repo root.
+
+## Site structure reminder
+The homepage (`docs/index.md`) is a **project gallery first**. Project tiles come before the Notes tile. When adding content, default to a new project tile rather than a notes entry unless the user specifically asks for a note.
