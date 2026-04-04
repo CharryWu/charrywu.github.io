@@ -5,6 +5,15 @@
   --vp-c-bg-alt: #F7F2CB;
   --vp-c-bg-soft: #DED9A5;
   --vp-c-text-1: #2F4858;
+
+  /* Homepage feature tiles: icon slot + text balance */
+  --vp-home-feature-icon-height: 88px;
+  --vp-home-feature-icon-margin-bottom: 16px;
+  --vp-home-feature-details-lines: 4;
+  /* Match VPFeature.vue: title/details use 24px line-height; details has 8px padding-top */
+  --vp-home-feature-title-line-height: 24px;
+  --vp-home-feature-details-line-height: 24px;
+  --vp-home-feature-details-padding-top: 8px;
 }
 
 .dark {
@@ -15,4 +24,65 @@
   --vp-c-bg-soft: #3E6A74;
   --vp-c-text-1: #F5F0BB;
   --vp-c-divider: #3E6A74;
+}
+
+/* Homepage (layout: home): unify feature tile icon height and clamp overflowing text */
+.VPHomeFeatures .VPFeature .box > img.VPImage {
+  display: block;
+  box-sizing: border-box;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: var(--vp-home-feature-icon-margin-bottom);
+  height: var(--vp-home-feature-icon-height);
+  width: auto;
+  max-width: 100%;
+  object-fit: contain;
+  object-position: center;
+}
+
+/* One line (theme default line-height); ellipsis if it overflows */
+.VPHomeFeatures .VPFeature .title {
+  flex-shrink: 0;
+  margin: 0;
+  box-sizing: border-box;
+  height: var(--vp-home-feature-title-line-height);
+  line-height: var(--vp-home-feature-title-line-height);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.VPHomeFeatures .VPFeature .details {
+  flex-grow: 0;
+  flex-shrink: 0;
+  margin: 0;
+  box-sizing: border-box;
+  padding-top: var(--vp-home-feature-details-padding-top);
+  height: calc(
+    var(--vp-home-feature-details-padding-top) +
+      var(--vp-home-feature-details-line-height) * var(--vp-home-feature-details-lines)
+  );
+  line-height: var(--vp-home-feature-details-line-height);
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: var(--vp-home-feature-details-lines);
+  line-clamp: var(--vp-home-feature-details-lines);
+  word-break: break-word;
+}
+
+/* Emoji / HTML icon row: same vertical slot as image thumbnails */
+.VPHomeFeatures .VPFeature .box > .icon {
+  box-sizing: border-box;
+  flex-shrink: 0;
+  width: 100%;
+  min-height: var(--vp-home-feature-icon-height);
+  height: var(--vp-home-feature-icon-height);
+  margin-bottom: var(--vp-home-feature-icon-margin-bottom);
+}
+
+/* Equal-height rows: pin “View …” / link to the bottom of the tile */
+.VPHomeFeatures .VPFeature .link-text {
+  flex-shrink: 0;
+  margin-top: auto;
 }
